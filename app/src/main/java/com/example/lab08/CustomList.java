@@ -28,4 +28,11 @@ public class CustomList {
 
         cities.remove(city);
     }
+
+    public int countCities() {
+        List<City> list = cities;
+        int count = list.size();
+
+        return count;
+    }
 }
